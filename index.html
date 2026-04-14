@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            font-size: 60px;
+            margin: 0;
+        }
+        p {
+            font-size: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            background-color: white;
+            color: #ff7e5f;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello World 👋</h1>
+        <p>Welcome to your first web page</p>
+        <button onclick="showMessage()">Click Me</button>
+    </div>
+
+    <script>
+        function showMessage() {
+            alert("Hello! You clicked the button 🚀");
+        }
+    </script>
+</body>
+</html>
